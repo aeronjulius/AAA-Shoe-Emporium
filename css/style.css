@@ -572,6 +572,7 @@ section{
 }
 
 .footer .credit{
+     text-shadow: 2px 2px 4px black;
     text-align: center;
     padding:1.5rem;
     padding-top: 2.5rem;
