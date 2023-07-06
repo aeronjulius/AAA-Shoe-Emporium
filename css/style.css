@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root {
+    --white: #ffffff;
     --black: #800080;
     --light-color: #9457eb;
     --box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     --border: .1rem solid #810541);
-    --red: #FF33AA;
+    --red: #dbac72;
     --light-red: #FFC0CB;
 }
 
@@ -30,12 +31,14 @@ section{
     padding:2rem 9%;
 }
 
-.heading{
+.heading {
     padding-bottom: 2rem;
     text-align: center;
     font-size: 4.5rem;
-    color:var(--black);
+    color: var(--black);
 }
+
+
 
 .heading span{
     position: relative;
@@ -80,13 +83,13 @@ section{
     right: 0;
     padding: 3rem 9%;
     z-index: 1000;
-    background-image: linear-gradient(to right, #ffb6c1, #db7093);
+    background-image: linear-gradient(to right, #af87d4, #6d2bab);
 }
 
 
 .header .logo{
     font-size: 2.5rem;
-    color:var(--black);
+    color:var(--white);
     font-weight: bold;
 }
 .header .logo img{
@@ -100,7 +103,7 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.7rem;
-    color:var(--black);
+    color:var(--white);
 }
 
 .header .navbar a:hover{
@@ -443,15 +446,16 @@ section{
     back
 }
 
-.newsletter h3{
-    font-size: 3rem;
-    color:var(--black);
-}
+    .newsletter h3 {
+        text-shadow: 2px 2px 4px white;
+        font-size: 3rem;
+        color: var(--black);
+    }
 
     .newsletter p {
-        text-shadow: 2px 2px 4px white;
+        text-shadow: 2px 2px 4px black;
         font-size: 1.5rem;
-        color: var(--light-color);
+        color: var(--white);
         padding: 1rem 0;
     }
 
@@ -535,7 +539,7 @@ section{
 
 
 .footer {
-    background-image: linear-gradient(to right, #ffb6c1, #db7093);
+    background-image: linear-gradient(to right, #af87d4, #6d2bab);
     padding-bottom: 8rem;
 }
 
@@ -548,19 +552,19 @@ section{
 .footer .box-container .box h3{
     font-size: 2.2rem;
     padding:1rem 0;
-    color:var(--black);
+    color:var(--red);
 }
 
-.footer .box-container .box a{
-    display: block;
-    font-size: 1.4rem;
-    padding:1rem 0;
-    color:var(--light-color);
-}
+    .footer .box-container .box a {
+        display: block;
+        font-size: 1.4rem;
+        padding: 1rem 0;
+        color: var(--white);
+    }
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--black);
+    color:var(--white);
 }
 
 .footer .box-container .box a:hover i{
@@ -574,7 +578,7 @@ section{
     margin-top: 2rem;
     border-top: var(--border);
     font-size: 2rem;
-    color:var(--black);
+    color:var(--red);
 }
 
 
@@ -633,7 +637,7 @@ section{
     .header .navbar{
         position: absolute;
         top:99%; left:0; right:0;
-        background: #b24bc9;
+        background:#b24bc9;
         border-top: var(--border);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
