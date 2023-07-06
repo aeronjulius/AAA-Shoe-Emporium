@@ -633,7 +633,7 @@ section{
     .header .navbar{
         position: absolute;
         top:99%; left:0; right:0;
-        background: #ffccb3;
+        background: #b24bc9;
         border-top: var(--border);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
